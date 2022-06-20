@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fabiano de Assis">
+    <title>Saída HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Saída HTML</h1>
+        <hr>
+    </header>
+    <main>
+        <div class="container">
+            <form onsubmit="return false;">
+                <input type="text" placeholder="Informe seu nome" id="nome" />
+                <br>
+                <br>
+                <button onclick="exibirNome();">Enviar</button>
+            </form>
+            <hr>
+
+            <!-- mostra o nome inserido pelo usuario -->
+            <div id="result"></div>
+        </div>        
+    </main>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
